@@ -4,9 +4,9 @@
 
 Summary:		Fork of the AOSP 'platform_external_sonivox' project
 Name:	sonivox
-Version:		4.0.1
+Version:		4.0.2
 Release:		1
-License:		ASL 2.0
+License:		Apache-2.0
 Group:	Sound
 Url:		https://github.com/pedrolcl/sonivox
 Source0:	https://github.com/pedrolcl/sonivox/archive/v%{version}/%{name}-%{version}.tar.gz
@@ -19,7 +19,7 @@ Requires:       %{libname} = %{version}-%{release}
 Sonivox is a fork of the Android Open Source Project 'platform_external_sonivox'
 including a CMake based build system to be used not on Android, but on any other
 Operating System.
-This is a Wave Table synthesizer, not using external soundfont files but
+This is a Wave Table synthesizer, not using external sound-font files but
 embedded samples instead. It is also a real time GM synthesizer.
 It may be indicated in projects for small embedded devices. There is neither
 MIDI input nor Audio output facilities included in the library. You need to
